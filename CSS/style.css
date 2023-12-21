@@ -24,8 +24,10 @@ body {
 }
 
 
-img {
-    width: 36.4rem;
+.astronauta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 h1 {
