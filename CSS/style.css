@@ -23,11 +23,8 @@ body {
     font-family: var(--base-font);
 }
 
-
-.astronauta {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+img {
+    width: 100%;
 }
 
 h1 {
@@ -129,6 +126,32 @@ textarea {
     width: 26.5rem;
 }
 
+.card {
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+#cards .card:hover {
+  background: #61A3BA;
+  -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+}
+
+.card_text .texto:hover {
+  color: #ff2eb9;
+  transition: all 0.5s;
+}
+
+.imagem{
+  transition: all 1s;
+  cursor: pointer;
+}
+
+.imagem:hover{
+  -webkit-transform: rotateZ(360deg);
+  transform: rotateZ(360deg);
+}
+
 /* Contact Section */
 #contato {
     width: 100%;
@@ -214,10 +237,6 @@ footer p {
       font-size: 5.8rem;
       line-height: 7.3rem;
       margin: 0 0 0.8rem;
-    }
-
-    img {
-        width: 71.9rem;
     }
   
     /* Hero Section */
